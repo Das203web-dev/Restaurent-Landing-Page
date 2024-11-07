@@ -21,52 +21,94 @@ _A visually appealing, responsive, and user-friendly restaurant website._
 
 ---
 
-### **Experience Section**
-- **Dynamic Content**  
-  - Showcases affordable pricing plans and engaging descriptions.  
+### **PopularItems Component**
+
+- **Dynamic Food Display**  
+  - Rotates through popular food items with images, titles, and descriptions.  
+  - Displays 1 item on smaller screens and 4 items on larger screens.
+
 - **User Interaction**  
-  - Button for exploring more details.  
+  - **Next/Previous Buttons:** Navigate through food items manually.  
+  - **Auto-Slide Feature:** Automatically rotates items every 3 seconds.  
+
 - **Responsive Design**  
-  - Optimized for all screen sizes.
+  - Dynamically adjusts the number of visible items based on screen size.  
+  - Uses grid layout for seamless alignment and spacing.  
+
+- **Visual Enhancements**  
+  - Bold headings: **Crispy, Every Bite Taste** and **Popular Food Items**.  
+  - Smooth transitions and shadow effects on navigation buttons.  
 
 ---
 
-### **Contact Section**
-- **Get in Touch**  
-  - Includes a phone number for direct contact.  
-  - Encourages user interaction via a "Contact Us" button.  
-- **Dynamic Content**  
-  - Adaptable content for various user scenarios.  
+### **Contact Component**
+
+- **Dynamic Form for Table Reservations**  
+  - Allows users to book a table with the following fields:
+    - Name, Email, Reservation Date, Total People, and Message.
+  - Dropdown selector for "Total People" with dynamic values from 1 to 50.
+  - Interactive dropdown with support for "drop-up" when space is limited.
+
 - **Responsive Design**  
-  - Ensures compatibility on desktop, tablet, and mobile devices.  
+  - Background image spans the full width and height of the screen.  
+  - Fully responsive layout adapts to all screen sizes.  
+
+- **Interactive Features**  
+  - **Form Validation:** Validates required fields using `react-hook-form`.  
+  - **Dynamic Dropdown:** Select number of people with auto-closing functionality.  
+  - **Submit Action:** Form submission logs data for further handling.
+
+- **Visual Enhancements**  
+  - Semi-transparent black overlay for enhanced readability over the background.  
+  - White calendar icon for date input field with placeholder text customization. 
 
 ---
 
-### **Highlight Features Section**
-- **Feature Cards**  
+### **Testimonial Features Section**
+- **Customer Reviews**  
   - Three unique cards for features:  
-    - **Fast Delivery** – Within 30 minutes.  
-    - **Absolute Dining** – Premium buffet options.  
-    - **Pickup Delivery** – Grab your orders easily.  
-- **Icons**  
-  - Custom icons for each feature.  
-- **Responsive Design**  
-  - Adapts perfectly to all devices.  
+    - **Customer Reviews** – Displays user reviews with client names, images, and locations  
+    - **Automatic Slider** – Reviews change automatically every 4 seconds or can be manually navigated using arrow controls.  
+    - **Responsive Design** – Optimized for all screen sizes, ensuring a great user experience on both mobile and desktop.
+
 
 ---
 
-### **Footer Component**
-- **Restaurant Details**  
-  - Displays restaurant info, social links, and operating hours.  
-- **Background Design**  
-  - Clean and modern with an overlay for readability.  
+### Footer Component
+
+- **Information Sections**  
+  The footer includes the following informational sections:
+  - **Opening Hours**: Displays the days and times the restaurant is open.
+  - **LET'S TALK**: Provides phone and fax numbers for contact.
+  - **Email**: Displays contact email addresses for inquiries and support.
+  - **Location**: Provides the restaurant's physical address.
+
+- **Social Media Icons**  
+  Links to the restaurant's social media profiles are displayed using icons for:
+  - **Facebook**
+  - **LinkedIn**
+  - **Twitter**
+  - **Instagram**
+
 - **Responsive Design**  
-  - Fully optimized for all screens.
+  The footer is fully optimized for all screen sizes, ensuring an excellent user experience on both mobile and desktop devices.
+
+- **Background Image with Overlay**  
+  The component has a customizable background image, with a dark overlay to improve text readability.
+
 
 ---
 
 ### **Technologies Used**
-- **Frontend**  
-  - React.js, Tailwind CSS, GSAP.  
-- **Assets**  
-  - Custom icons, images, and videos.  
+- **React.js**  
+  A JavaScript library for building user interfaces, used for handling the dynamic components of the application.
+- **Tailwind CSS**  
+  A utility-first CSS framework for quickly designing custom user interfaces with minimal effort.
+- **React Router**  
+  Provides navigation between different components of the application.
+- **React Hook Form**  
+  Simplifies form handling in React, used to manage form state and validation.
+- **React Icons**  
+  Provides scalable vector icons for React applications.
+- **React Scroll**  
+  Allows smooth scrolling between sections of the webpage.  
