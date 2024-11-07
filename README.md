@@ -1,4 +1,4 @@
-**Restaurant Website**  
+# **Restaurant Website**  
 _A visually appealing, responsive, and user-friendly restaurant website._
 
 ---
