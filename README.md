@@ -10,8 +10,25 @@ _A visually appealing, responsive, and user-friendly restaurant website._
 - Responsive design ensures compatibility across all devices.
 
 ### **About Section**
-- Provides the **restaurant's story and values**.
-- Features **high-quality visuals** to captivate visitors.
+## **Tab Navigation**
+- Three dynamic tabs: **About**, **Experience**, and **Contact**.
+- Interactive switching between tabs with a visual state indicator.
+
+## **Content Display**
+- Displays dynamic content based on the selected tab.
+  - Includes:
+    - Titles
+    - Descriptions
+    - Action buttons
+    - Optional contact details
+
+## **Responsive Design**
+- Fully responsive across:
+  - Desktop
+  - Tablet
+  - Mobile devices
+- Uses a **flexbox layout** for proper alignment and spacing.
+
 
 ### **Popular Items Section**
 - Highlights **chef-recommended dishes and bestsellers**.
