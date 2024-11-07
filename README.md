@@ -9,55 +9,64 @@ _A visually appealing, responsive, and user-friendly restaurant website._
 - Welcomes users with a **visually appealing hero section**.
 - Responsive design ensures compatibility across all devices.
 
-### **About Section**
-## **Tab Navigation**
-- Three dynamic tabs: **About**, **Experience**, and **Contact**.
-- Interactive switching between tabs with a visual state indicator.
+### **About Component**
+- **Tab Navigation**  
+  - Three tabs: **About**, **Experience**, and **Contact**.  
+  - Interactive tab switching with visual state highlights.  
+- **Content Display**  
+  - Displays tab-specific content:  
+    - Title, description, action buttons, and contact details (optional).  
+- **Responsive Design**  
+  - Fully responsive using **flexbox layout**.  
 
-## **Content Display**
-- Displays dynamic content based on the selected tab.
-  - Includes:
-    - Titles
-    - Descriptions
-    - Action buttons
-    - Optional contact details
+---
 
-## **Responsive Design**
-- Fully responsive across:
-  - Desktop
-  - Tablet
-  - Mobile devices
-- Uses a **flexbox layout** for proper alignment and spacing.
+### **Experience Section**
+- **Dynamic Content**  
+  - Showcases affordable pricing plans and engaging descriptions.  
+- **User Interaction**  
+  - Button for exploring more details.  
+- **Responsive Design**  
+  - Optimized for all screen sizes.
 
-
-### **Popular Items Section**
-- Highlights **chef-recommended dishes and bestsellers**.
-- Utilizes a clean **grid layout** for easy navigation.
-
-### **Testimonial Section**
-- Includes **dynamic customer reviews** in a sleek carousel.
-- Features videos, images, and **manual navigation options**.
+---
 
 ### **Contact Section**
-- Interactive contact form for **reservations and inquiries**.
-- Full-width **background image** for added appeal.
-- Stylish inputs with **custom selectors**.
+- **Get in Touch**  
+  - Includes a phone number for direct contact.  
+  - Encourages user interaction via a "Contact Us" button.  
+- **Dynamic Content**  
+  - Adaptable content for various user scenarios.  
+- **Responsive Design**  
+  - Ensures compatibility on desktop, tablet, and mobile devices.  
 
-### **Footer**
-- Displays restaurant details, **social media links**, and opening hours.
-- Features a **modern overlay design**.
+---
+
+### **Highlight Features Section**
+- **Feature Cards**  
+  - Three unique cards for features:  
+    - **Fast Delivery** – Within 30 minutes.  
+    - **Absolute Dining** – Premium buffet options.  
+    - **Pickup Delivery** – Grab your orders easily.  
+- **Icons**  
+  - Custom icons for each feature.  
+- **Responsive Design**  
+  - Adapts perfectly to all devices.  
 
 ---
 
-## **Technologies Used**
-
-### **Frontend**
-- **React.js**
-- **Tailwind CSS** for responsive styling.
-- **GSAP** for animations.
-
-### **Assets and Icons**
-- **React Icons** for stylish and consistent icons.
-- Custom images and videos for a unique look.
+### **Footer Component**
+- **Restaurant Details**  
+  - Displays restaurant info, social links, and operating hours.  
+- **Background Design**  
+  - Clean and modern with an overlay for readability.  
+- **Responsive Design**  
+  - Fully optimized for all screens.
 
 ---
+
+### **Technologies Used**
+- **Frontend**  
+  - React.js, Tailwind CSS, GSAP.  
+- **Assets**  
+  - Custom icons, images, and videos.  
